@@ -1,0 +1,36 @@
+caption {
+    font-size: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    border-spacing: 0;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+table th{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size:25px;
+    width: 5%;
+    font-weight: bold;
+    color: #eee;
+}
+
+table tr, table td{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+    font-size: 20px;
+    table-layout: fixed;
+}
+
+table tr:hover{
+    background-color: #d4f0fd;
+}
+
+table tr,table td{
+    text-align: left;
+    padding: 10px auto;
+}
